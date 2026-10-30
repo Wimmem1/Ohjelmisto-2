@@ -1,0 +1,68 @@
+/* Must be at the very top of your CSS file */
+@import url('https://fonts.googleapis.com/css2?family=IM+Fell+French+Canon:ital@0;1&display=swap');
+
+/* Tässä otetaan fontti netistä */
+body {
+    font-family: "IM Fell French Canon", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* h1 {
+  font-family: "IM Fell French Canon", serif;
+  font-weight: 400;
+  font-style: normal;
+} */
+
+
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex; /* Laittaa linkit horisontaaliseen linjaan */
+    justify-content: flex-start;
+    align-items: center;
+    background-color: azure;
+
+    }
+
+/* Tällä saadaan linkit oikeaan reunaan */
+.navbar-logo {
+    margin-right: auto;
+}
+
+
+    .navbar li {
+        padding: 15px 20px;
+    }
+
+    .navbar a {
+        color: red;
+        text-decoration: none;
+        font-size: 16px;
+        font-weight: bold;
+        transition: 0.3s; /* KORJATTU: lisätty s-kirjain sekunneille */
+    }
+    
+    .navbar a:hover {
+        color: black;
+    }
+
+    .navbar-logo img {
+        height: 40px;
+        display: block; 
+        margin-right: 20px;
+    }
+
+    
+.kuva-laatikko {
+    text-align: left;    /* ◄ Vaihdettu: siirtää sisällön (kuvan) vasempaan reunaan */
+    margin: 20px 0;      /* Jättää tyhjää tilaa kuvan ylä- ja alapuolelle */
+}
+
+.kuva-laatikko img {
+    max-width: 350px; /* Tässä leveys*/
+    width: 100%;      /* ("%") saadaan varmistettua, että se venyy myös mobiililaitteille sopivaksi */
+    height: auto;     /* auto pitää kuvasuhteen oikeana */
+    display: inline-block; 
+}
