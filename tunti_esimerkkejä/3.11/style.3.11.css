@@ -1,0 +1,44 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    background-color: #f4f4f4;
+    margin-top: 50px;
+}
+
+button {
+    padding: 12px 24px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 30px;
+}
+
+button:hover {
+    background-color: #0056b3; /*Tummempi sininen, kun hiiri on päällä */
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+    max-width: 400px;
+    height: auto;
+    border-radius: 8px; /* Pyöristetyt kulmat kuvalle */
+
+}
+
+
+
+/* Html koodaus 1 tehtävä
+css koodaus 1 tehtävä */
+
+/* Mihin elementtiin laitat kaiken sisällön, mikä selaimessa näkyy = body
+
+Valmis html raahaa oikeaan kohtaan
+
+opettele käyttämään link tagia
+
+<body> <-- Avaustagi
+</body> <-- Sulkutagi Huomaa "</" Vitun jonne! */

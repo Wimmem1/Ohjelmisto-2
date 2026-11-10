@@ -1,0 +1,42 @@
+
+/* Valitsee kaikki <p>-elementit */
+p {
+    color: red;
+}
+
+/* Valitsee elementin, jolla on id "intro" */
+
+#intro {
+    font-size: 20px;
+}
+
+/* valitsee kaikki elementit, joilla on class "center" */
+.center {
+    text-align: center;
+}
+
+/* --------------------------------------------------------------------------------------------------------------- */
+/* Tässä ^ olevat valitsimet(selector) määrittävät, mihin html elementteihin tyylisisältö kohdistuu
+
+
+/* Seuraavaksi esimerkki atribuuttivalitsimesta */
+
+[target] {  /* Valitsee kaikki elementit, joilla on target atribuutti*/
+    background-color: yellow;
+}
+
+[target="_blank"] {
+    background-color: yellow;
+}
+
+[target*="w3schools"] {
+    background-color: yellow;
+}
+
+
+.oma_taulukko {
+    width: 100%;
+    font-family: fantasy;
+    font-size: 16px;
+
+}

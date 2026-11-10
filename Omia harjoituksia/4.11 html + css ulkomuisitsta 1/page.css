@@ -1,0 +1,20 @@
+.unordered_list {
+    font-family: monospace;
+    font-size: 20px;
+    color: crimson;
+    font-style: italic;
+}
+
+.ordered_list {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 10px;
+    color: azure;
+    font-style: italic;
+}
+
+.taulukko1 {
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 45px;
+    color: black;
+    font-weight: bold;
+}
